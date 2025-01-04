@@ -11,7 +11,6 @@ load_dotenv(override=True)
 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
 LANGFLOW_ID = "5b623b45-eef7-4b18-9d8f-4a05b7ed6132"
-FLOW_ID = "f0cf8997-e47e-499c-96d1-00ebf5491c46"
 APPLICATION_TOKEN = os.getenv("APPLICATION_TOKEN")
 
 def ask_chat_bot(question):
